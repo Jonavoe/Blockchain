@@ -1,0 +1,129 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					}
+				],
+				"name": "createGame",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "description",
+								"type": "string"
+							},
+							{
+								"internalType": "bool",
+								"name": "played",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct Games",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "setOpposite",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					}
+				],
+				"name": "updateDescription",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Struct.sol": "Struct"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EnumGame.sol": {
+			"keccak256": "0xebf20a18fdadefb1f494247e0c70c5df06f7f39d6d9e0c5defff7e32cf407ccb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://afa134f5280edc68b96768bf21ce36346f478b8467550a8f36855430a3b5c7ec",
+				"dweb:/ipfs/QmWVT9dEJssHKt6BJXvULEqu15PMFdokuy9XbJ4og7UiVL"
+			]
+		},
+		"contracts/Struct.sol": {
+			"keccak256": "0xb570cbe869a084386df363c4331937fd47764c644e5ec368ab52db0a2739e9cb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9d3c77375c77e46cc5a3ec8d45dc36fb6fcc43129ae4f1a3e766ca6519224270",
+				"dweb:/ipfs/QmS1ZuXn9V2SqpqCUTVNREvC3hyrQCVi8kFAf5P7fW1L69"
+			]
+		}
+	},
+	"version": 1
+}
