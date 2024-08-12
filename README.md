@@ -4,6 +4,10 @@
 
 Blockchain es una aplicación desarrollada para explorar y gestionar redes blockchain. Esta aplicación permite a los usuarios interactuar con contratos inteligentes, visualizar transacciones y gestionar nodos en una red blockchain simulada.
 
+## Demo
+
+Puedes ver la aplicación en funcionamiento aquí: [Blockchain](https://tu-url-de-demo-aqui.com)
+
 ## Características
 
 - **Exploración de bloques**: Permite visualizar bloques y transacciones en una red blockchain.
